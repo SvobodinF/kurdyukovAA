@@ -1,11 +1,15 @@
-values = [5, 3, 10]
+values = [3, 3, 3]
 
 def func(val):
     result = ""
     length = len(val)
 
-    #for i in range(length):
-      ##      for j in range(length):
-        #for j in range(length):
-     #       
-    #return result
+    if val[0] == val[1] == val[2]:
+        return 3
+    elif val[0] != val[1] != val[2]:
+        return 1
+    else: return 2
+                    
+
+
+print(func(values))
