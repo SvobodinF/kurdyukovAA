@@ -9,7 +9,7 @@ length = 8
 
 def ColorApprove(el1, el2):
 
-    if (el1[0] > length or el1[1] > length or el2[0] > length or el2 > length):
+    if (el1[0] > length or el1[1] > length or el2[0] > length or el2[1] > length):
         return "Неверные входные данные"
 
     result = ""
