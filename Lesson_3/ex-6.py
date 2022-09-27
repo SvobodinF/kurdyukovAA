@@ -1,7 +1,3 @@
-from turtle import pos
-from unittest import result
-
-
 x = [int(input("Номер столбца первой ячейки")), int(input("Номер строки первой ячейки"))]
 y = [int(input("Номер столбца второй ячейки")), int(input("Номер строки второй ячейки"))]
 
