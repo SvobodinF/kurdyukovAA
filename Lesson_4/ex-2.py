@@ -2,13 +2,13 @@ a = 2
 b = 10
 
 def func(x, y):
-    if (x > y):
-        a = x
+    if x > y:
+        v = x
         x = y
-        y = a
+        y = v
 
     while x <= y:
-        if (x > y):
+        if x > y:
             print(x)
             x+=1
         else:
