@@ -9,7 +9,7 @@ def func():
         result += 1
         currentDistance *= 1.1
 
-    return f"{result}, {currentDistance}"
+    return f"Дней: {result}"
 
 
 print(func())

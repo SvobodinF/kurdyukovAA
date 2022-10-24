@@ -8,9 +8,6 @@ def func(value):
         c, a = c+a,c
         
         result += c
-
-        
-
     
     return result
 
