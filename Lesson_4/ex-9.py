@@ -1,14 +1,17 @@
 
 def func(value):
     result = 0
+    a = 1
+    c = 0
 
-    for i in range(0, value, 1):
-        x = 1
-        y = 1
+    for i in range(value):
+        c, a = c+a,c
+        
+        result += c
 
         
 
     
     return result
 
-func(int(input("Введите число")))
+print(func(int(input("Введите число"))))

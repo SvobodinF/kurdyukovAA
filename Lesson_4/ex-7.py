@@ -1,5 +1,3 @@
-
-
 def func(n):
     a = 1
     s = 0

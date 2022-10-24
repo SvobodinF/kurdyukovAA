@@ -1,11 +1,17 @@
-a = 2
+from traceback import format_tb
+
+
+a = 21
 b = 11
 
 def func(x, y):
-    while x <= y:
-        if x % 2 != 0:
-            print(x)
+    if x <= y:
+        print("Не верное условие Y не меньше X")
+        return 
 
-        x+=1
+
+    for i in range(x,y, -1):
+        if i % 2 != 0:
+            print(i)
     
 func(a, b)
