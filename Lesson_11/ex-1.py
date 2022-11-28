@@ -1,5 +1,4 @@
 import requests 
-from pprint import pprint
 import json
 from tkinter import *
 import time 
